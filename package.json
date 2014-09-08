@@ -1,0 +1,32 @@
+{
+  "name": "haproxy-upstart-wrapper",
+  "version": "0.0.0",
+  "description": "A wrapper for haproxy to be used with Upstart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "haproxy-upstart-wrapper": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wankdanker/haproxy-upstart-wrapper.git"
+  },
+  "keywords": [
+    "upstart",
+    "haproxy",
+    "wrapper",
+    "init"
+  ],
+  "author": "Dan VerWeire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wankdanker/haproxy-upstart-wrapper/issues"
+  },
+  "homepage": "https://github.com/wankdanker/haproxy-upstart-wrapper",
+  "dependencies": {
+    "dank-copyfile": "0.0.2",
+    "optimist": "^0.6.1"
+  }
+}
