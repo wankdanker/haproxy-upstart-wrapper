@@ -27,6 +27,14 @@ Uninstall the upstart job with:
 $ haproxy-upstart-wrapper --uninstall
 ```
 
+Then you can use the normal upstart commands to manage haproxy:
+
+```bash
+$ service haproxy start
+$ service haproxy reload
+$ service haproxy stop
+```
+
 license
 -------
 
