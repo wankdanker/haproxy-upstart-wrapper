@@ -1,6 +1,6 @@
 {
   "name": "haproxy-upstart-wrapper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A wrapper for haproxy to be used with Upstart",
   "main": "index.js",
   "scripts": {
